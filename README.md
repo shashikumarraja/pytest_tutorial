@@ -33,9 +33,16 @@ pip install -r requirements.txt
 
 3. Tests are located inside `src/tests/`
 ```shell
-pytest src/tests/*
+pytest src/tests
 ```
-
+4. To run tests and generate html report
+```shell
+pytest src/tests --html=report.html --self-contained-html
+```
+5. To run tests with multiple cpu cycles(will speed up the test execution by running them in parallel)
+```shell
+pytest src/tests -n 5
+```
 
 To fix liniting errors the project uses [autopep8](https://github.com/hhatto/autopep8).
 To modify a file in place (with aggressive level 2):

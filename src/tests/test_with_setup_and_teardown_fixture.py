@@ -7,10 +7,12 @@ def get_sum_test_data():
 
 @pytest.fixture(autouse=True)
 def setup_and_teardown():
+        #setup part 
         print '\nFetching data from db'
         yield
+        #teardown part
         print '\nSaving test run data in db'
-        
+
 def test_sum_with_setup_and_teardown_fixture(get_sum_test_data):
         for data in get_sum_test_data:
                 num1 = data[0]

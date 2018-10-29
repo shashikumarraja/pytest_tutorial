@@ -6,3 +6,5 @@ src/tests/*.pyc
 src/*.pyc
 .coverage
 .hypothesis
+report.html
+assets
