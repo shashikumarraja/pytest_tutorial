@@ -1,6 +1,6 @@
 .pytest_cache
 *.log
 src/.hypothesis
-tests/__pycache__
-tests/*.pyc
+src/tests/__pycache__
+src/tests/*.pyc
 src/*.pyc

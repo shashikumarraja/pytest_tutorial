@@ -5,6 +5,7 @@ PYTEST TUTORIAL
 [![allure_pytest 2.5.0](https://img.shields.io/badge/allure_pytest-2.5.0-yellow.svg)](https://github.com/allure-framework/allure-python)
 [![pytest_html 1.19.0](https://img.shields.io/badge/pytest_html-1.19.0-yellowgreen.svg)](https://github.com/pytest-dev/pytest-html)
 [![xdist 1.22.5](https://img.shields.io/badge/xdist-1.22.5-orange.svg)](https://pypi.org/project/pytest-xdist/)
+[![Build Status](https://travis-ci.org/shashikumarraja/pytest_tutorial.svg?branch=master)](https://travis-ci.org/shashikumarraja/pytest_tutorial)
 
 Contains pytest scripts which helps in understanding different pytest functionalities and features.
 
