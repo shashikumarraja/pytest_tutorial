@@ -39,7 +39,18 @@ pytest src/tests
 ```shell
 pytest src/tests --html=report.html --self-contained-html
 ```
-5. To run tests with multiple cpu cycles(will speed up the test execution by running them in parallel)
+![alt text](img/report_html.png)
+5. To run tests and generate allure report
+```shell
+#make sure report directory exists in the root folder
+pytest src/tests --alluredir=report/
+
+#To view the allure report
+allure serve report/
+```
+![alt text](img/report_allure.png)
+
+6. To run tests with multiple cpu cycles(will speed up the test execution by running them in parallel)
 ```shell
 pytest src/tests -n 5
 ```

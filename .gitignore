@@ -8,3 +8,5 @@ src/*.pyc
 .hypothesis
 report.html
 assets
+report
+.DS_Store
