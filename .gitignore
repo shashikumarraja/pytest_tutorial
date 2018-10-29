@@ -4,3 +4,5 @@ src/.hypothesis
 src/tests/__pycache__
 src/tests/*.pyc
 src/*.pyc
+.coverage
+.hypothesis

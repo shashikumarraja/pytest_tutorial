@@ -1,5 +1,5 @@
 import pytest
-from .. import sum
+from ..sum import *
 
 #make sure to start function name with test
 def test_sum():
