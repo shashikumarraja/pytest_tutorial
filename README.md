@@ -40,6 +40,8 @@ pytest src/tests
 pytest src/tests --html=report.html --self-contained-html
 ```
 ![alt text](img/report_html.png)
+
+
 5. To run tests and generate allure report
 ```shell
 #make sure report directory exists in the root folder
@@ -49,6 +51,12 @@ pytest src/tests --alluredir=report/
 allure serve report/
 ```
 ![alt text](img/report_allure.png)
+
+6. To run tests with code coverage report
+```shell
+pytest --cov=src --verbose
+```
+![alt text](img/cov_report.png)
 
 6. To run tests with multiple cpu cycles(will speed up the test execution by running them in parallel)
 ```shell
