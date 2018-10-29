@@ -51,8 +51,14 @@ pip install -r requirements.txt
 ```
 To fix liniting errors the project uses [autopep8](https://github.com/hhatto/autopep8).
 
+3. Tests are located inside `src/tests/`
 ```shell
-//To modify a file in place (with aggressive level 2):
+pytest src/tests/*
+```
 
+
+To modify a file in place (with aggressive level 2):
+
+```shell
 $ autopep8 --in-place --aggressive --aggressive <filename>
 ```
