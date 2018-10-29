@@ -22,25 +22,6 @@ def test_answer():
     assert inc(3) == 5
 ```
 
-To execute it::
-
-    $ pytest
-    ============================= test session starts =============================
-    collected 1 items
-
-    test_sample.py F
-
-    ================================== FAILURES ===================================
-    _________________________________ test_answer _________________________________
-
-        def test_answer():
-    >       assert inc(3) == 5
-    E       assert 4 == 5
-    E        +  where 4 = inc(3)
-
-    test_sample.py:5: AssertionError
-    ========================== 1 failed in 0.04 seconds ===========================
-
 How to Run the project?
 =====
 1. Clone/download this repo
@@ -49,7 +30,6 @@ How to Run the project?
 ```shell
 pip install -r requirements.txt
 ```
-To fix liniting errors the project uses [autopep8](https://github.com/hhatto/autopep8).
 
 3. Tests are located inside `src/tests/`
 ```shell
@@ -57,8 +37,8 @@ pytest src/tests/*
 ```
 
 
+To fix liniting errors the project uses [autopep8](https://github.com/hhatto/autopep8).
 To modify a file in place (with aggressive level 2):
-
 ```shell
 $ autopep8 --in-place --aggressive --aggressive <filename>
 ```
