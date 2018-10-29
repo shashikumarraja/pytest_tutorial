@@ -17,7 +17,7 @@ install:
 
 # command to run tests, e.g. python setup.py test
 script:
-  - py.test --cov=tests --verbose
+  - pytest --cov=src/tests/* --verbose
 
 after_success:
 - coverage combine --append
