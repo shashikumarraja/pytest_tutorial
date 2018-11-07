@@ -21,6 +21,8 @@ def test_sum_with_property(num1, num2):
     # Test Commutative property
     assert sum(num1, num2) == sum(num2, num1)
 
+#Marking this test as expected to fail
+@pytest.mark.xfail
 @given(st.integers(), st.integers())
 def test_sum_with_shrinking_example(num1, num2):
     assert sum(num1, num2) == num1 + num2
